@@ -204,8 +204,8 @@ header .fa-chevron-down {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 20px;
-  font-size: 30px;
+  bottom: 2rem;
+  font-size: 3rem;
   color: #eeeeee;
 }
 header .aboutus-btn {
