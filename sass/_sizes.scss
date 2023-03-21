@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+	nav {
+		height: 82px;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		.hero-img {
+			background-image: url("../img/bg-big.png");
+		}
+	}
+}
