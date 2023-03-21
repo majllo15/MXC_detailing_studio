@@ -81,6 +81,11 @@ nav {
 		color: color.$blue;
 	}
 
+	.nav-link:visited,
+	.navbar-brand:visited {
+		color: color.$light-gray;
+	}
+
 	.navbar-brand {
 		font-size: 2.4rem;
 	}

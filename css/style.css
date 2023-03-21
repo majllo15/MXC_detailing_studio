@@ -96,6 +96,10 @@ nav .nav-link:hover,
 nav .navbar-brand:hover {
   color: #00adb5;
 }
+nav .nav-link:visited,
+nav .navbar-brand:visited {
+  color: #b2b2b2;
+}
 nav .navbar-brand {
   font-size: 2.4rem;
 }
