@@ -133,6 +133,13 @@ table {
   color: #00adb5;
 }
 
+.underline {
+  margin: 0 auto 4rem;
+  width: 6rem;
+  height: 0.4rem;
+  background-color: #00adb5;
+}
+
 nav {
   z-index: 1;
 }
@@ -221,6 +228,13 @@ header .aboutus-btn {
 header .aboutus-btn:hover {
   color: #151515;
   background-color: #00adb5;
+}
+
+.aboutus h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eeeeee;
 }
 
 @media (min-width: 992px) {

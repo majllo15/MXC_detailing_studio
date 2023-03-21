@@ -63,6 +63,13 @@ table {
 	color: color.$blue;
 }
 
+.underline {
+	margin: 0 auto 4rem;
+	width: 6rem;
+	height: 0.4rem;
+	background-color: color.$blue;
+}
+
 nav {
 	z-index: 1;
 
@@ -166,6 +173,15 @@ header {
 	.aboutus-btn:hover {
 		color: color.$black;
 		background-color: color.$blue;
+	}
+}
+
+.aboutus {
+	h2 {
+		font-size: 3.2rem;
+		text-align: center;
+		text-transform: uppercase;
+		color: color.$text-color;
 	}
 }
 
