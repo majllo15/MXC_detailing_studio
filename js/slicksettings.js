@@ -1,10 +1,11 @@
-$(".team-carousel").slick({
+$('.offer-carousel').slick({
 	arrows: false,
 	autoplay: true,
 	mobileFirst: true,
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
+        
 		{
 			breakpoint: 767,
 			settings: {
@@ -17,5 +18,11 @@ $(".team-carousel").slick({
 				slidesToShow: 3,
 			},
 		},
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4,
+			},
+		},
 	],
-})
+  });
