@@ -242,17 +242,31 @@ header .aboutus-btn:hover {
   color: #eeeeee;
 }
 .aboutus .aboutus-text h3 {
+  font-size: 2rem;
   font-family: "nunitobold", sans-serif;
   text-transform: uppercase;
   color: #00adb5;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .aboutus .aboutus-text {
     font-size: 1.6rem;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
+  }
+}
+@media (min-width: 1200px) {
+  header .hero-img {
+    background-image: url("../img/bg-big.png");
+  }
+  .aboutus .aboutus-text {
+    padding-top: 3rem;
+  }
+}
+@media (min-width: 1400px) {
   .aboutus .aboutus-img-box {
     position: relative;
   }
@@ -264,15 +278,5 @@ header .aboutus-btn:hover {
     height: 350px;
     background-color: #00adb5;
     z-index: -1;
-  }
-}
-@media (min-width: 992px) {
-  nav {
-    height: 82px;
-  }
-}
-@media (min-width: 1200px) {
-  header .hero-img {
-    background-image: url("../img/bg-big.png");
   }
 }/*# sourceMappingURL=style.css.map */

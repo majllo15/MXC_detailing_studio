@@ -1,24 +1,7 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 	.aboutus {
 		.aboutus-text {
 			font-size: 1.6rem;
-		}
-	}
-}
-
-@media (min-width: 576px) {
-	.aboutus {
-		.aboutus-img-box {
-			position: relative;
-			.aboutus-square {
-				position: absolute;
-				top: 7rem;
-				left: 4rem;
-				width: 485px;
-				height: 350px;
-				background-color: color.$blue;
-				z-index: -1;
-			}
 		}
 	}
 }
@@ -33,6 +16,29 @@
 	header {
 		.hero-img {
 			background-image: url("../img/bg-big.png");
+		}
+	}
+
+	.aboutus {
+		.aboutus-text {
+			padding-top: 3rem;
+		} 
+	}
+}
+
+@media (min-width: 1400px) {
+	.aboutus {
+		.aboutus-img-box {
+			position: relative;
+			.aboutus-square {
+				position: absolute;
+				top: 7rem;
+				left: 4rem;
+				width: 485px;
+				height: 350px;
+				background-color: color.$blue;
+				z-index: -1;
+			}
 		}
 	}
 }
