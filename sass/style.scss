@@ -86,7 +86,7 @@ nav {
 
 	.nav-link:hover,
 	.navbar-brand:hover {
-		color: color.$blue;
+		color: color.$blue !important;
 	}
 
 	.nav-link:visited,
@@ -196,8 +196,6 @@ header {
 			color: color.$blue;
 		}
 	}
-
-	
 }
 
 @import "./sizes";

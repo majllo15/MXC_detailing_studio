@@ -154,7 +154,7 @@ nav .navbar-brand {
 }
 nav .nav-link:hover,
 nav .navbar-brand:hover {
-  color: #00adb5;
+  color: #00adb5 !important;
 }
 nav .nav-link:visited,
 nav .navbar-brand:visited {
