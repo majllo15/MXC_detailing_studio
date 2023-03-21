@@ -168,6 +168,7 @@ header {
 		border: 1px solid color.$blue;
 		border-radius: 8px;
 		transition: color 0.3s, background-color 0.3s;
+		cursor: pointer;
 	}
 
 	.aboutus-btn:hover {
@@ -183,6 +184,19 @@ header {
 		text-transform: uppercase;
 		color: color.$text-color;
 	}
+
+	.aboutus-text {
+		font-size: 1.8rem;
+		color: color.$text-color;
+
+		h3 {
+			font-family: font.$bold-font;
+			text-transform: uppercase;
+			color: color.$blue;
+		}
+	}
+
+	
 }
 
 @import "./sizes";
