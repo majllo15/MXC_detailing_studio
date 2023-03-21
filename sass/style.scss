@@ -1,5 +1,6 @@
 @use "./fonts" as font;
 @use "./colors" as color;
+@use "./animations";
 
 *,
 *::after,
@@ -140,6 +141,15 @@ header {
 		height: 100%;
 		padding: 10px;
 		text-align: center;
+	}
+
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+		font-size: 30px;
+		color: color.$text-color;
 	}
 
 	.aboutus-btn {
