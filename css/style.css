@@ -140,6 +140,13 @@ table {
   background-color: #00adb5;
 }
 
+h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eeeeee;
+}
+
 nav {
   z-index: 1;
 }
@@ -231,12 +238,6 @@ header .aboutus-btn:hover {
   background-color: #00adb5;
 }
 
-.aboutus h2 {
-  font-size: 3.2rem;
-  text-align: center;
-  text-transform: uppercase;
-  color: #eeeeee;
-}
 .aboutus .aboutus-text {
   font-size: 1.8rem;
   color: #eeeeee;
@@ -246,6 +247,10 @@ header .aboutus-btn:hover {
   font-family: "nunitobold", sans-serif;
   text-transform: uppercase;
   color: #00adb5;
+}
+
+.offer {
+  background-color: #2C3440;
 }
 
 @media (min-width: 320px) {

@@ -70,6 +70,13 @@ table {
 	background-color: color.$blue;
 }
 
+h2 {
+	font-size: 3.2rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: color.$text-color;
+}
+
 nav {
 	z-index: 1;
 
@@ -178,12 +185,6 @@ header {
 }
 
 .aboutus {
-	h2 {
-		font-size: 3.2rem;
-		text-align: center;
-		text-transform: uppercase;
-		color: color.$text-color;
-	}
 
 	.aboutus-text {
 		font-size: 1.8rem;
@@ -197,5 +198,11 @@ header {
 		}
 	}
 }
+
+.offer {
+	background-color: color.$bg-second-color;
+}
+
+
 
 @import "./sizes";
