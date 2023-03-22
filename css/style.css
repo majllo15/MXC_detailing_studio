@@ -316,7 +316,7 @@ header .aboutus-btn:hover {
 .realizations {
   position: relative;
   height: 600px;
-  background-image: url("/img/realizations-bg-mini.png");
+  background-image: url("../img/realizations-bg-mini.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -364,7 +364,7 @@ header .aboutus-btn:hover {
     padding-top: 3rem;
   }
   .realizations {
-    background-image: url("/img/realizations-bg-big.png");
+    background-image: url("../img/realizations-bg-big.png");
   }
 }
 @media (min-width: 1400px) {
