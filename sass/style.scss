@@ -299,7 +299,7 @@ header {
 		background-color: color.$bg-color;
 
 		.card-title {
-			font-family: "nunitobold";
+			font-family: font.$bold-font;
 			color: color.$blue;
 		}
 
@@ -309,6 +309,36 @@ header {
 		}
 	}
 }
+
+.contact {
+	i {
+		font-size: 3.2rem;
+		color: color.$blue;
+	}
+
+	.box-content {
+		color: color.$text-color;
+
+		.box-title {
+			font-size: 1.3rem;
+			font-family: font.$bold-font;
+			text-transform: uppercase;
+		}
+
+		.box-text {
+			font-size: 1.2rem;
+		}
+
+	}
+
+
+	
+}
+
+
+
+
+
 
 ::-webkit-scrollbar {
 	width: 0.8rem;

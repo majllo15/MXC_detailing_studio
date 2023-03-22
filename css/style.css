@@ -337,12 +337,28 @@ header .aboutus-btn:hover {
   background-color: #222831;
 }
 .realizations .card .card-title {
-  font-family: "nunitobold";
+  font-family: "nunitobold", sans-serif;
   color: #00adb5;
 }
 .realizations .card img {
   height: 20rem;
   object-fit: cover;
+}
+
+.contact i {
+  font-size: 3.2rem;
+  color: #00adb5;
+}
+.contact .box-content {
+  color: #eeeeee;
+}
+.contact .box-content .box-title {
+  font-size: 1.3rem;
+  font-family: "nunitobold", sans-serif;
+  text-transform: uppercase;
+}
+.contact .box-content .box-text {
+  font-size: 1.2rem;
 }
 
 ::-webkit-scrollbar {
