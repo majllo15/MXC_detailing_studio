@@ -315,7 +315,6 @@ header .aboutus-btn:hover {
 
 .realizations {
   position: relative;
-  height: 600px;
   background-image: url("../img/realizations-bg-mini.png");
   background-position: center;
   background-size: cover;
@@ -329,6 +328,24 @@ header .aboutus-btn:hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -5;
+}
+
+.realizations .col {
+  transition: transform 0.3s;
+}
+.realizations .col:hover {
+  transform: scale(0.96);
+}
+.realizations .card {
+  background-color: #222831;
+}
+.realizations .card .card-title {
+  font-family: "nunitobold";
+  color: #00adb5;
+}
+.realizations .card img {
+  height: 20rem;
+  object-fit: cover;
 }
 
 ::-webkit-scrollbar {
