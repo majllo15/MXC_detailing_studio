@@ -1,7 +1,13 @@
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 	.aboutus {
 		.aboutus-text {
 			font-size: 1.6rem;
+		}
+	}
+
+	.pricelist {
+		.pricelist-table {
+			font-size: 1.2rem;
 		}
 	}
 }
@@ -22,7 +28,7 @@
 	.aboutus {
 		.aboutus-text {
 			padding-top: 3rem;
-		} 
+		}
 	}
 }
 

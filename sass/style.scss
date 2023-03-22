@@ -234,6 +234,44 @@ header {
 	}
 }
 
+.pricelist {
+	.pricelist-table {
+		font-size: 1.4rem;
+
+		th {
+			color: color.$blue;
+		}
+
+		tr {
+			background-color: color.$black;
+		}
+
+		td {
+			color: color.$text-color;
+		}
+	}
+
+	.pricelist-btn-box {
+		text-align: center;
+		.pricelist-btn {
+			padding: 0.3em 0.8em;
+			font-size: 1.6rem;
+			color: color.$text-color;
+			text-transform: uppercase;
+			background-color: transparent;
+			border: 1px solid color.$blue;
+			border-radius: 8px;
+			transition: color 0.3s, background-color 0.3s;
+			cursor: pointer;
+		}
+
+		.pricelist-btn:hover {
+			color: color.$black;
+			background-color: color.$blue;
+		}
+	}
+}
+
 ::-webkit-scrollbar {
 	width: 0.8rem;
 }
