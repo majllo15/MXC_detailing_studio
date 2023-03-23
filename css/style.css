@@ -360,6 +360,37 @@ header .aboutus-btn:hover {
 .contact .box-content .box-text {
   font-size: 1.2rem;
 }
+.contact form .form-headline {
+  font-size: 1.8rem;
+  color: #00adb5;
+}
+.contact form .form-control,
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: #eeeeee;
+}
+.contact form .form-control {
+  font-size: 1.4rem;
+  background-color: #2C3440;
+}
+.contact form .form-btn-box {
+  text-align: center;
+}
+.contact form .form-btn-box .form-btn {
+  padding: 0.3em 0.8em;
+  font-size: 1.6rem;
+  color: #eeeeee;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #00adb5;
+  border-radius: 8px;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+.contact form .form-btn-box .form-btn:hover {
+  color: #151515;
+  background-color: #00adb5;
+}
 
 ::-webkit-scrollbar {
   width: 0.8rem;

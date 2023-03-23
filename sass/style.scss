@@ -328,17 +328,45 @@ header {
 		.box-text {
 			font-size: 1.2rem;
 		}
-
 	}
 
+	form {
+		.form-headline {
+			font-size: 1.8rem;
+			color: color.$blue;
+		}
 
-	
+		.form-control,
+		input::placeholder,
+		textarea::placeholder {
+			color: color.$text-color;
+		}
+
+		.form-control {
+			font-size: 1.4rem;
+			background-color: color.$bg-second-color;
+		}
+
+		.form-btn-box {
+			text-align: center;
+			.form-btn {
+				padding: 0.3em 0.8em;
+				font-size: 1.6rem;
+				color: color.$text-color;
+				text-transform: uppercase;
+				background-color: transparent;
+				border: 1px solid color.$blue;
+				border-radius: 8px;
+				transition: color 0.3s, background-color 0.3s;
+				cursor: pointer;
+			}
+			.form-btn:hover {
+				color: color.$black;
+				background-color: color.$blue;
+			}
+		}
+	}
 }
-
-
-
-
-
 
 ::-webkit-scrollbar {
 	width: 0.8rem;
