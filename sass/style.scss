@@ -1,6 +1,7 @@
 @use "./fonts" as font;
 @use "./colors" as color;
 @use "./animations";
+@use "./normalize";
 
 *,
 *::after,
@@ -413,7 +414,7 @@ header {
 
 footer {
 	background-color: color.$bg-second-color;
-	p{
+	p {
 		font-size: 1.4rem;
 		color: color.$blue;
 	}
