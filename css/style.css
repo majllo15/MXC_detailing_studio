@@ -701,8 +701,8 @@ header .aboutus-btn:hover {
 }
 .contact form .send-btn-box .send-btn {
   position: relative;
-  width: 130px;
-  height: 50px;
+  width: 13rem;
+  height: 5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #eeeeee;
