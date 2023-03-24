@@ -72,6 +72,11 @@
     opacity: 1;
   }
 }
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 *,
 *::after,
 *::before {
@@ -369,27 +374,70 @@ header .aboutus-btn:hover {
 .contact form textarea::placeholder {
   color: #eeeeee;
 }
+.contact form input:focus,
+.contact form textarea:focus {
+  border: 1px solid #00adb5;
+}
 .contact form .form-control {
   font-size: 1.4rem;
   background-color: #2C3440;
 }
-.contact form .form-btn-box {
+.contact form .show-error {
+  border: 1px solid red;
+}
+.contact form .send-btn-box {
   text-align: center;
 }
-.contact form .form-btn-box .form-btn {
-  padding: 0.3em 0.8em;
-  font-size: 1.6rem;
-  color: #eeeeee;
+.contact form .send-btn-box .send-btn {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  color: #eeeeee;
   background-color: transparent;
   border: 1px solid #00adb5;
   border-radius: 8px;
-  transition: color 0.3s, background-color 0.3s;
+  transition: all 350ms ease-in-out;
   cursor: pointer;
 }
-.contact form .form-btn-box .form-btn:hover {
+.contact form .send-btn-box .send-btn:hover {
   color: #151515;
   background-color: #00adb5;
+}
+.contact form .send-btn-box .send-btn.checked {
+  box-shadow: 200px 0 0 #00adb5 inset;
+  transition: box-shadow 1s;
+}
+.contact form .send-btn-box .circle {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  left: 50%;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact form .send-btn-box .plane-icon {
+  position: absolute;
+  top: 50%;
+  left: -0.5rem;
+  transform: translateY(-50%) rotate(-25deg);
+}
+.contact form .send-btn-box .rotateCircle {
+  animation: rotate 3s ease-in-out 1;
+}
+.contact form .send-btn-box .hide {
+  display: none;
+  visibility: hidden;
+}
+
+footer {
+  background-color: #2C3440;
+}
+footer p {
+  font-size: 1.4rem;
+  color: #00adb5;
 }
 
 ::-webkit-scrollbar {
