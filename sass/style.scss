@@ -233,6 +233,10 @@ header {
 			background-color: color.$blue;
 		}
 	}
+
+	.card-text-full-offer {
+		font-size: 1.2rem;
+	}
 }
 
 .pricelist {
@@ -417,6 +421,10 @@ footer {
 	p {
 		font-size: 1.4rem;
 		color: color.$blue;
+	}
+
+	.full-offer-background-color {
+		background-color: color.$bg-color;
 	}
 }
 

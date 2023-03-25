@@ -597,6 +597,9 @@ header .aboutus-btn:hover {
   color: #151515;
   background-color: #00adb5;
 }
+.offer .card-text-full-offer {
+  font-size: 1.2rem;
+}
 
 .pricelist .pricelist-table {
   font-size: 1.4rem;
@@ -749,6 +752,9 @@ footer {
 footer p {
   font-size: 1.4rem;
   color: #00adb5;
+}
+footer .full-offer-background-color {
+  background-color: #222831;
 }
 
 ::-webkit-scrollbar {
