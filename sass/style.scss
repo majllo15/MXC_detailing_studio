@@ -71,6 +71,10 @@ table {
 	background-color: color.$blue;
 }
 
+.full-pricelist {
+	background-color: color.$bg-second-color;
+}
+
 h2 {
 	font-size: 3.2rem;
 	text-align: center;
@@ -271,6 +275,23 @@ header {
 			background-color: color.$blue;
 		}
 	}
+
+	.seat-box,
+	.restoration-box,
+	.ozoning-box,
+	.protection-box {
+		background-color: color.$bg-color;
+	}
+
+	h4 {
+		color: color.$blue;
+		text-transform: uppercase;
+	}
+
+	.text {
+		font-size: 1.2rem;
+		color: color.$text-color;
+	}
 }
 
 .realizations {
@@ -401,6 +422,7 @@ header {
 				position: absolute;
 				top: 50%;
 				left: -0.5rem;
+				color: color.$text-color;
 				transform: translateY(-50%) rotate(-25deg);
 			}
 

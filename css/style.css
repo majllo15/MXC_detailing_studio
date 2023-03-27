@@ -456,6 +456,10 @@ table {
   background-color: #00adb5;
 }
 
+.full-pricelist {
+  background-color: #2C3440;
+}
+
 h2 {
   font-size: 3.2rem;
   text-align: center;
@@ -628,6 +632,20 @@ header .aboutus-btn:hover {
   color: #151515;
   background-color: #00adb5;
 }
+.pricelist .seat-box,
+.pricelist .restoration-box,
+.pricelist .ozoning-box,
+.pricelist .protection-box {
+  background-color: #222831;
+}
+.pricelist h4 {
+  color: #00adb5;
+  text-transform: uppercase;
+}
+.pricelist .text {
+  font-size: 1.2rem;
+  color: #eeeeee;
+}
 
 .realizations {
   position: relative;
@@ -736,6 +754,7 @@ header .aboutus-btn:hover {
   position: absolute;
   top: 50%;
   left: -0.5rem;
+  color: #eeeeee;
   transform: translateY(-50%) rotate(-25deg);
 }
 .contact form .send-btn-box .rotateCircle {
