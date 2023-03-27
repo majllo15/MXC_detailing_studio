@@ -583,10 +583,10 @@ header .aboutus-btn:hover {
   color: #00adb5;
   text-transform: uppercase;
 }
-.offer .offer-btn-box {
+.offer .offer-btn-box, .offer .back-offer-btn-box {
   text-align: center;
 }
-.offer .offer-btn-box .offer-btn {
+.offer .offer-btn-box .offer-btn, .offer .offer-btn-box .back-offer-btn, .offer .back-offer-btn-box .offer-btn, .offer .back-offer-btn-box .back-offer-btn {
   padding: 0.3em 0.8em;
   font-size: 1.6rem;
   color: #eeeeee;
@@ -597,7 +597,7 @@ header .aboutus-btn:hover {
   transition: color 0.3s, background-color 0.3s;
   cursor: pointer;
 }
-.offer .offer-btn-box .offer-btn:hover {
+.offer .offer-btn-box .offer-btn:hover, .offer .offer-btn-box .back-offer-btn:hover, .offer .back-offer-btn-box .offer-btn:hover, .offer .back-offer-btn-box .back-offer-btn:hover {
   color: #151515;
   background-color: #00adb5;
 }
@@ -614,10 +614,10 @@ header .aboutus-btn:hover {
 .pricelist .pricelist-table td {
   color: #eeeeee;
 }
-.pricelist .pricelist-btn-box {
+.pricelist .pricelist-btn-box, .pricelist .back-pricelist-btn-box {
   text-align: center;
 }
-.pricelist .pricelist-btn-box .pricelist-btn {
+.pricelist .pricelist-btn-box .pricelist-btn, .pricelist .pricelist-btn-box .back-pricelist-btn, .pricelist .back-pricelist-btn-box .pricelist-btn, .pricelist .back-pricelist-btn-box .back-pricelist-btn {
   padding: 0.3em 0.8em;
   font-size: 1.6rem;
   color: #eeeeee;
@@ -628,7 +628,7 @@ header .aboutus-btn:hover {
   transition: color 0.3s, background-color 0.3s;
   cursor: pointer;
 }
-.pricelist .pricelist-btn-box .pricelist-btn:hover {
+.pricelist .pricelist-btn-box .pricelist-btn:hover, .pricelist .pricelist-btn-box .back-pricelist-btn:hover, .pricelist .back-pricelist-btn-box .pricelist-btn:hover, .pricelist .back-pricelist-btn-box .back-pricelist-btn:hover {
   color: #151515;
   background-color: #00adb5;
 }
