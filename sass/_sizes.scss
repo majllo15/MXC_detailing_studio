@@ -39,15 +39,8 @@
 @media (min-width: 1400px) {
 	.aboutus {
 		.aboutus-img-box {
-			position: relative;
 			.aboutus-square {
-				position: absolute;
-				top: 7rem;
-				left: 4rem;
-				width: 485px;
-				height: 350px;
-				background-color: color.$blue;
-				z-index: -1;
+				visibility: visible;
 			}
 		}
 	}

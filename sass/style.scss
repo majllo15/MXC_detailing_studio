@@ -201,6 +201,20 @@ header {
 			color: color.$blue;
 		}
 	}
+
+	.aboutus-img-box {
+		position: relative;
+		.aboutus-square {
+			position: absolute;
+			top: 7rem;
+			left: 4rem;
+			width: 485px;
+			height: 350px;
+			background-color: color.$blue;
+			z-index: -1;
+			visibility: hidden;
+		}
+	}
 }
 
 .offer {
@@ -219,9 +233,11 @@ header {
 		text-transform: uppercase;
 	}
 
-	.offer-btn-box, .back-offer-btn-box {
+	.offer-btn-box,
+	.back-offer-btn-box {
 		text-align: center;
-		.offer-btn, .back-offer-btn {
+		.offer-btn,
+		.back-offer-btn {
 			padding: 0.3em 0.8em;
 			font-size: 1.6rem;
 			color: color.$text-color;
@@ -232,7 +248,8 @@ header {
 			transition: color 0.3s, background-color 0.3s;
 			cursor: pointer;
 		}
-		.offer-btn:hover, .back-offer-btn:hover {
+		.offer-btn:hover,
+		.back-offer-btn:hover {
 			color: color.$black;
 			background-color: color.$blue;
 		}
@@ -256,9 +273,11 @@ header {
 		}
 	}
 
-	.pricelist-btn-box, .back-pricelist-btn-box {
+	.pricelist-btn-box,
+	.back-pricelist-btn-box {
 		text-align: center;
-		.pricelist-btn, .back-pricelist-btn {
+		.pricelist-btn,
+		.back-pricelist-btn {
 			padding: 0.3em 0.8em;
 			font-size: 1.6rem;
 			color: color.$text-color;
@@ -270,7 +289,8 @@ header {
 			cursor: pointer;
 		}
 
-		.pricelist-btn:hover, .back-pricelist-btn:hover {
+		.pricelist-btn:hover,
+		.back-pricelist-btn:hover {
 			color: color.$black;
 			background-color: color.$blue;
 		}
