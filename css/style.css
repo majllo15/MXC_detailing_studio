@@ -412,10 +412,6 @@ body {
   background-color: #222831;
 }
 
-main {
-  overflow: hidden;
-}
-
 a {
   text-decoration: none;
 }
@@ -562,6 +558,9 @@ header .aboutus-btn:hover {
   background-color: #00adb5;
 }
 
+.aboutus {
+  overflow: hidden;
+}
 .aboutus .aboutus-text {
   font-size: 1.8rem;
   color: #eeeeee;

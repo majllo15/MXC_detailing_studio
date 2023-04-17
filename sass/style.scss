@@ -27,10 +27,6 @@ body {
 	background-color: color.$bg-color;
 }
 
-main {
-	overflow: hidden;
-}
-
 a {
 	text-decoration: none;
 }
@@ -194,6 +190,7 @@ header {
 }
 
 .aboutus {
+	overflow: hidden;
 	.aboutus-text {
 		font-size: 1.8rem;
 		color: color.$text-color;
