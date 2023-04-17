@@ -27,6 +27,10 @@ body {
 	background-color: color.$bg-color;
 }
 
+main {
+	overflow: hidden;
+}
+
 a {
 	text-decoration: none;
 }

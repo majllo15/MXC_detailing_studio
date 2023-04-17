@@ -412,6 +412,10 @@ body {
   background-color: #222831;
 }
 
+main {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -821,6 +825,11 @@ footer .full-offer-background-color {
   }
   .pricelist .pricelist-table {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    scroll-padding-top: 65px;
   }
 }
 @media (min-width: 992px) {

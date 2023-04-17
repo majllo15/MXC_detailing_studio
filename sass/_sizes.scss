@@ -12,6 +12,12 @@
 	}
 }
 
+@media (max-width: 992px) {
+	html {
+		scroll-padding-top: 65px;
+	}
+}
+
 @media (min-width: 992px) {
 	nav {
 		height: 82px;
