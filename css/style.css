@@ -467,6 +467,10 @@ h2 {
   color: #eeeeee;
 }
 
+.nav-visibility {
+  visibility: hidden;
+}
+
 nav {
   z-index: 1;
 }
