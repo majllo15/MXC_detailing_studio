@@ -9,11 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		} else {
 			nav.classList.remove("shadow-bg")
 		}
-		if (window.scrollY >= 300) {
-			nav.classList.add("nav-visibility")
-		} else {
-			nav.classList.remove("nav-visibility")
-		}
 	}
 
 	allNavItems.forEach(item =>
